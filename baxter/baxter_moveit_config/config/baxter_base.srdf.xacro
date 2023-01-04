@@ -42,13 +42,14 @@
         <joint name="left_w2" value="0" />
     </group_state>
     <group_state name="left_visible" group="left_arm">
-        <joint name="left_e0" value="0.014" />
-        <joint name="left_e1" value="0.788" />
-        <joint name="left_s0" value="-0.366" />
-        <joint name="left_s1" value="-0.408" />
-        <joint name="left_w0" value="-0.728" />
-        <joint name="left_w1" value="1.092" />
-        <joint name="left_w2" value="1.639" />
+    0.07171360175170899, 0.8045729223266602, -0.4375680192443848, -0.3555000471862793, -0.7428301956848145, 0.9353447843444825, 1.7472041154052735
+        <joint name="left_e0" value="0.0717" />
+        <joint name="left_e1" value="0.8045" />
+        <joint name="left_s0" value="-0.4375" />
+        <joint name="left_s1" value="-0.3555" />
+        <joint name="left_w0" value="-0.7428" />
+        <joint name="left_w1" value="0.9353" />
+        <joint name="left_w2" value="1.7472" />
     </group_state>
     <group_state name="right_neutral" group="right_arm">
         <joint name="right_e0" value="0" />
