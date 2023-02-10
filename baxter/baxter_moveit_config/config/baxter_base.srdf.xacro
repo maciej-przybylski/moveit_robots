@@ -33,23 +33,25 @@
     <end_effector name="right_hand_eef" parent_link="$(arg right_tip_name)" group="right_hand" parent_group="right_arm" />
     <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
     <group_state name="left_neutral" group="left_arm">
-        <joint name="left_e0" value="0" />
-        <joint name="left_e1" value="0.75" />
-        <joint name="left_s0" value="-0.25" />
-        <joint name="left_s1" value="-0.55" />
-        <joint name="left_w0" value="0" />
-        <joint name="left_w1" value="1.26" />
-        <joint name="left_w2" value="0" />
+    <!-- 0.17449031442260743, 1.0408059633911133, -0.18676216071166993, -0.904281673425293, -0.6979612576904297, 1.464951650756836, 1.6156652629943848 -->
+        <joint name="left_e0" value="0.1744" />
+        <joint name="left_e1" value="1.0408" />
+        <joint name="left_s0" value="-0.1867" />
+        <joint name="left_s1" value="-0.9042" />
+        <joint name="left_w0" value="-0.6979" />
+        <joint name="left_w1" value="1.4649" />
+        <joint name="left_w2" value="1.6156" />
     </group_state>
     <group_state name="left_visible" group="left_arm">
-    0.07171360175170899, 0.8045729223266602, -0.4375680192443848, -0.3555000471862793, -0.7428301956848145, 0.9353447843444825, 1.7472041154052735
-        <joint name="left_e0" value="0.0717" />
-        <joint name="left_e1" value="0.8045" />
-        <joint name="left_s0" value="-0.4375" />
-        <joint name="left_s1" value="-0.3555" />
-        <joint name="left_w0" value="-0.7428" />
-        <joint name="left_w1" value="0.9353" />
-        <joint name="left_w2" value="1.7472" />
+    <!-- 0.09472331354370118, 1.0411894585876464, -0.4252961729553223, -0.6408204734069824, -1.0925778149230958, 1.0032234341308595, 2.0302235704467773 -->
+    <!-- 0.1100631214050293, 1.967330358215332, -0.14266021311035157, -0.9123350725524902, -0.9587379913330079, 1.3322623127563478, 2.7055586115417483 -->
+        <joint name="left_e0" value="0.1100" />
+        <joint name="left_e1" value="1.9673" />
+        <joint name="left_s0" value="-0.1426" />
+        <joint name="left_s1" value="-0.9123" />
+        <joint name="left_w0" value="-0.9587" />
+        <joint name="left_w1" value="1.3322" />
+        <joint name="left_w2" value="2.7055" />
     </group_state>
     <group_state name="right_neutral" group="right_arm">
         <joint name="right_e0" value="0" />
