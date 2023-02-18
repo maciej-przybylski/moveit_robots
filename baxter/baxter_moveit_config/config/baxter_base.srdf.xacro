@@ -45,13 +45,14 @@
     <group_state name="left_visible" group="left_arm">
     <!-- 0.09472331354370118, 1.0411894585876464, -0.4252961729553223, -0.6408204734069824, -1.0925778149230958, 1.0032234341308595, 2.0302235704467773 -->
     <!-- 0.1100631214050293, 1.967330358215332, -0.14266021311035157, -0.9123350725524902, -0.9587379913330079, 1.3322623127563478, 2.7055586115417483 -->
-        <joint name="left_e0" value="0.1100" />
-        <joint name="left_e1" value="1.9673" />
-        <joint name="left_s0" value="-0.1426" />
-        <joint name="left_s1" value="-0.9123" />
-        <joint name="left_w0" value="-0.9587" />
-        <joint name="left_w1" value="1.3322" />
-        <joint name="left_w2" value="2.7055" />
+    <!-- 0.09510680874023437, 1.359106976513672, -0.39269908125, -0.9157865293212891, -0.7489661188293457, 1.3955390201843263, 2.0919662970886233 -->
+        <joint name="left_e0" value="0.0951" />
+        <joint name="left_e1" value="1.3591" />
+        <joint name="left_s0" value="-0.3926" />
+        <joint name="left_s1" value="-0.9157" />
+        <joint name="left_w0" value="-0.7489" />
+        <joint name="left_w1" value="1.3955" />
+        <joint name="left_w2" value="2.0919" />
     </group_state>
     <group_state name="right_neutral" group="right_arm">
         <joint name="right_e0" value="0" />
@@ -61,6 +62,16 @@
         <joint name="right_w0" value="0" />
         <joint name="right_w1" value="1.26" />
         <joint name="right_w2" value="0" />
+    </group_state>
+    <group_state name="right_top_camera" group="right_arm">
+    <!-- 0.5434126934875488, 0.7451311668640137, -0.2185922620239258, -1.4269856263000489, 0.4402524856201172, 2.086213869140625, -0.4061214131286621 -->
+        <joint name="right_e0" value="0.5434" />
+        <joint name="right_e1" value="0.7451" />
+        <joint name="right_s0" value="-0.2185" />
+        <joint name="right_s1" value="-1.4269" />
+        <joint name="right_w0" value="0.4402" />
+        <joint name="right_w1" value="2.0862" />
+        <joint name="right_w2" value="-0.4061" />
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
      <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
